@@ -1,14 +1,15 @@
-# API DE CRUD com TypeORM
+# CRUD API with TypeORM
 
-<description>Tem como função, criar, atualizar e deletar usuários criados em um banco de dados.</description>
+<description>
+Its function is to create, read, update and delete users created in a database.</description>
 
-# Endpoints do serviço:
+# Endpoints:
 
 
-| MÉTODO | ENDPOINT | FUNÇÃO |
+| METHOD | ENDPOINT | FUNCTION |
 | --- |  --- | --- |
-| `POST` | /users  | Criação de usuário
-| `GET`  | /users  | Lista todos os usuários
-| `GET`  | /users | Retorna os dados de um usuário
-| `PATCH` |/users/:id  | Atualiza os dados de um usuário
-| `DELETE` |/users/:id | Deleta um usuário do banco
+| `POST` | /users  | User creation
+| `GET`  | /users  | List all users
+| `GET`  | /users | Returns a user's data
+| `PATCH` |/users/:id  | Update a user's data
+| `DELETE` |/users/:id | Delete a user from the database
