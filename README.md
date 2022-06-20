@@ -10,6 +10,6 @@ Its function is to create, read, update and delete users created in a database.<
 | --- |  --- | --- |
 | `POST` | /users  | User creation
 | `GET`  | /users  | List all users
-| `GET`  | /users | Returns a user's data
+| `GET`  | /users/:id | Returns a user's data
 | `PATCH` |/users/:id  | Update a user's data
 | `DELETE` |/users/:id | Delete a user from the database
